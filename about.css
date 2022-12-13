@@ -1,0 +1,38 @@
+body{
+    background: url(image/bled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+
+ ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  ul,
+  li,
+  a {
+    text-decoration: double;
+    color: #008000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  
+  ul,
+  li a:hover {
+    color: #ffd700;
+  }

@@ -1,0 +1,110 @@
+body {
+    background: url(image/silk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+ul,
+li,
+a {
+    text-decoration: double;
+    color: #008000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul,
+li a:hover {
+    color: #ffd700;
+}
+
+.menu .nao {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 15px;
+    font-family: 'Times New Roman';
+}
+
+
+.form {
+    background: #000000bd;
+    height: 600px;
+    width: 350px;
+    padding-top: 30px;
+    margin-top: 200px;
+    margin-left: 450px;
+    border-radius: 15px;
+    text-align: center;
+    color: #008000;
+
+
+}
+
+.form input {
+    background: transparent;
+    border-bottom: 1px dashed #ffd700;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: #ffd700;
+
+}
+
+.form textarea {
+    background: transparent;
+    border-bottom: 1px dashed #ffd700;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    letter-spacing: 1px;
+    font-family: Arial;
+    color: #ffd700;
+}
+
+
+::placeholder {
+    color: #ffd700;
+}
+
+.form textarea:focus {
+    outline: none;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form .sign {
+    border: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+.form .sign:hover {
+    color: #0cdb0c;
+}
+
+.form .log:hover {
+    color: #ffd700;
+}
