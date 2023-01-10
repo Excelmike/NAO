@@ -43,6 +43,13 @@
  }
 
  ul {
+      @media screen {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
    float: left;
    display: flex;
    justify-content: center;
